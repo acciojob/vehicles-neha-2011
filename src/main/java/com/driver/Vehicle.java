@@ -22,13 +22,13 @@ public class Vehicle {
     public String getName(){
         return name;
     }
-    public String setName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public int setCurrentSpeed(int currentSpeed){
+    public void setCurrentSpeed(int currentSpeed){
          this.currentSpeed = currentSpeed;
     }
-    public int setCurrentDirection(int currentDirection){
+    public void setCurrentDirection(int currentDirection){
          this.currentDirection = currentDirection;
     }
 
