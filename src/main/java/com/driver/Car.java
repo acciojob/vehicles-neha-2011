@@ -35,6 +35,10 @@ public class Car extends Vehicle {
     public int getWheels() {
         return wheels;
     }
+    public void setWheels(int wheels){
+        this.wheels = wheels;
+    }
+
 
     public String getType() {
         return type;
